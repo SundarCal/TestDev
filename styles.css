@@ -4,6 +4,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: white; /* Set text color to white or any other contrasting color */
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%; /* 100% of the viewport width */
 }
 
 .image-container {
