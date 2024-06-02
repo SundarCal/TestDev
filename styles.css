@@ -36,6 +36,10 @@ body {
     height: auto;
 }
 
+.is-rectangular {
+    border-radius: 0 !important; /* Override any border-radius to ensure the image is not circular */
+}
+
 .card-container {
     display: flex;
     justify-content: space-around;
