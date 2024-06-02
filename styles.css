@@ -62,5 +62,6 @@ body {
       justify-content: center;
       align-items: center;
       color: white;
-      background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+      background: rgba(0, 0, 0, 0.7); /* Increased opacity for better readability */
+      text-shadow: 2px 2px 4px black; /* Added text shadow for more contrast */
     }
