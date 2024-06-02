@@ -65,3 +65,13 @@ body {
       background: rgba(0, 0, 0, 0.7); /* Increased opacity for better readability */
       text-shadow: 2px 2px 4px black; /* Added text shadow for more contrast */
     }
+
+
+.right-aligned-card {
+    display: flex;
+    justify-content: flex-end;
+}
+.right-aligned-card .card {
+    width: 100%; /* Ensures the card takes up the full width of its container */
+}
+
