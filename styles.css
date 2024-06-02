@@ -10,7 +10,7 @@ body {
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin: 20px 0;
 }
 
