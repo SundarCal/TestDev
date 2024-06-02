@@ -66,6 +66,10 @@ body {
       text-shadow: 2px 2px 4px black; /* Added text shadow for more contrast */
     }
 
+ .image-overlay .title {
+      color: white !important; /* Ensures text color is white */
+      text-shadow: 2px 2px 4px black; /* Added text shadow for more contrast */
+    }
 
 .right-aligned-card {
     display: flex;
