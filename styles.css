@@ -79,6 +79,12 @@ body {
       text-shadow: 2px 2px 4px black; /* Added text shadow for more contrast */
     }
 
+.info-text {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
 .right-aligned-card {
     display: flex;
     justify-content: flex-end;
