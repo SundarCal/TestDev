@@ -52,8 +52,10 @@ body {
     margin: 10px;
 }
 
-.card-header-title {
-            background-color: #4CAF50; /* Example color */
+.card-header-title
+.card-header-icon {
+            /*background: rgb(2,0,36);*/
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,34,130,1) 35%, rgba(0,212,255,1) 100%);
             color: white; /* Optional: change text color for better contrast */
             padding: 10px; /* Optional: adjust padding */
             border-radius: 5px; /* Optional: add border radius for rounded corners */
