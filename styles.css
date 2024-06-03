@@ -52,6 +52,12 @@ body {
     margin: 10px;
 }
 
+.card-header-title {
+            background-color: #4CAF50; /* Example color */
+            color: white; /* Optional: change text color for better contrast */
+            padding: 10px; /* Optional: adjust padding */
+            border-radius: 5px; /* Optional: add border radius for rounded corners */
+        }
 .image-overlay {
       position: absolute;
       top: 0;
