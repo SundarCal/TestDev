@@ -87,7 +87,7 @@ body {
 }
 
 .right-aligned-card {
-    display: flex;
+    /* display: flex; */
     justify-content: flex-end;
 }
 .right-aligned-card .card {
