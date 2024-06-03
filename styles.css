@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white; /* Set text color to white or any other contrasting color */
-    height: 100vh; /* 100% of the viewport height */
+    height: 100%;
     width: 100%; /* 100% of the viewport width */
 }
 
