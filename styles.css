@@ -86,4 +86,6 @@ body {
 .right-aligned-card .card {
     width: 100%; /* Ensures the card takes up the full width of its container */
 }
-
+.bright-color-title {
+    color: Yellow!important;
+}
