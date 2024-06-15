@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('img/Pillairaypatti_Pillaiyar_Temple.JPG') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .event-details {
+            display: flex;
+            flex-direction: row;
+            max-width: 900px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            text-align: center;
+        }
+        .event-image {
+            flex: 1;
+            background: url('img/Pillayar.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .event-info {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+        }
+        .event-info header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            padding: 20px;
+        }
+        .event-info header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .event-info section {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .event-info section .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 45%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .event-info section h2 {
+            color: #ff7e5f;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        .event-info section p {
+            color: #ddd;
+            font-size: 16px;
+            margin: 0 0 15px;
+        }
+        .event-info footer {
+            background: #333;
+            padding: 15px;
+            border-top: 1px solid #444;
+        }
+        .event-info footer a {
+            color: #feb47b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="event-details">
+        <div class="event-image"></div>
+        <div class="event-info">
+            <header>
+                <h1>Community Meetup</h1>
+            </header>
+            <section>
+                <div class="card">
+                    <h2>Location</h2>
+                    <p>Community Center, 123 Main Street, Hometown, HT 12345</p>
+                </div>
+                <div class="card">
+                    <h2>Date & Time</h2>
+                    <p>Saturday, July 20, 2024</p>
+                    <p>3:00 PM - 5:00 PM</p>
+                </div>
+            </section>
+            <footer>
+                <p>For more information, visit our <a href="#">website</a>.</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
