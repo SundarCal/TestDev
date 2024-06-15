@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .event-details {
+            max-width: 600px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            text-align: center;
+        }
+        .event-details header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            padding: 20px;
+        }
+        .event-details header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .event-details section {
+            padding: 20px;
+        }
+        .event-details section h2 {
+            color: #ff7e5f;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        .event-details section p {
+            color: #ddd;
+            font-size: 16px;
+            margin: 0 0 15px;
+        }
+        .event-details footer {
+            background: #333;
+            padding: 15px;
+            border-top: 1px solid #444;
+        }
+        .event-details footer a {
+            color: #feb47b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="event-details">
+        <header>
+            <h1>Community Meetup</h1>
+        </header>
+        <section>
+            <p>Welcome to our monthly community meetup where we discuss various topics and network with like-minded individuals. We look forward to seeing you there!</p>
+            <div class="location">
+                <h2>Location</h2>
+                <p>Community Center, 123 Main Street, Hometown, HT 12345</p>
+            </div>
+            <div class="datetime">
+                <h2>Date & Time</h2>
+                <p>Saturday, July 20, 2024</p>
+                <p>3:00 PM - 5:00 PM</p>
+            </div>
+        </section>
+        <footer>
+            <p>For more information, visit our <a href="#">website</a>.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
