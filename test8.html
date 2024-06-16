@@ -38,6 +38,7 @@
             height: auto;
             border-radius: 50%;
             border: 2px solid #fff;
+            z-index: 10; /* Ensure the logo is in front */
         }
         .event-info {
             flex: 2;
@@ -58,6 +59,7 @@
             left: -20px;
             top: -20px;
             box-sizing: border-box;
+            z-index: 1; /* Ensure the header is behind the logo */
         }
         .event-info header h1 {
             margin: 0;
