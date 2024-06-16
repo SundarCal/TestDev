@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.6) url('img/Pillairaypatti_Pillaiyar_Temple.JPG') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .event-details {
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            padding: 20px;
+            margin-top: 50px; /* Space at the top for headers */
+        }
+        .event-logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+        .event-info {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .event-info header {
+            color: white;
+            padding: 20px;
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            width: calc(100% + 40px); /* Full width including padding */
+            position: relative;
+            left: -20px;
+            top: -20px;
+        }
+        .event-info header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .event-info header h1 span {
+            display: block;
+        }
+        .event-info section {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .event-info section .card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 45%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+        .event-info section .card h2 {
+            color: #fff;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            padding: 10px;
+            border-radius: 8px 8px 0 0;
+            margin: -15px -15px 10px -15px;
+        }
+        .event-info section .right-card {
+            width: 30%;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .event-info section .right-card h2 {
+            color: #fff;
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            padding: 10px;
+            border-radius: 8px 8px 0 0;
+            margin: -15px -15px 10px -15px;
+        }
+        .event-info section p {
+            color: #ddd;
+            font-size: 16px;
+            margin: 0 0 15px;
+        }
+        .event-info footer {
+            background: #333;
+            padding: 15px;
+            border-top: 1px solid #444;
+        }
+        .event-info footer a {
+            color: #feb47b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="event-details">
+        <img src="img/Pillayar.jpg" alt="Event Logo" class="event-logo">
+        <div class="event-info">
+            <header>
+                <h1>
+                    <span>Community Meetup</span>
+                    <span>சமூக சந்திப்பு</span>
+                </h1>
+            </header>
+            <section>
+                <div class="card">
+                    <h2>Houston Welcomes</h2>
+                    <p>Welcome to our monthly community meetup where we discuss various topics and network with like-minded individuals. We look forward to seeing you there!</p>
+                </div>
+                <div class="card">
+                    <h2>ஹூஸ்டன் வரவேற்கிறது</h2>
+                    <p>எங்கள் மாதாந்திர சமூக சந்திப்புக்கு வரவேற்கிறோம், இங்கே பல்வேறு தலைப்புகள் குறித்து விவாதிக்கிறோம் மற்றும் ஒரே கருத்துள்ளவர்களுடன் இணைகிறோம். உங்களை அங்கே பார்க்க ஆவலுடன் காத்திருக்கிறோம்!</p>
+                </div>
+                <div class="card right-card">
+                    <h2>Location</h2>
+                    <p>Community Center, 123 Main Street, Hometown, HT 12345</p>
+                </div>
+                <div class="card right-card">
+                    <h2>Date & Time</h2>
+                    <p>Saturday, July 20, 2024</p>
+                    <p>சனி, ஜூலை 20, 2024</p>
+                    <p>3:00 PM - 5:00 PM</p>
+                    <p>மாலை 3:00 - 5:00</p>
+                </div>
+            </section>
+            <footer>
+                <p>
+                    For more information, visit our 
+                    <a href="#">FAQ</a>.
+                </p>
+                <p>
+                    மேலதிக தகவல்களுக்கு, எங்கள் 
+                    <a href="#">கேள்விகள்</a> 
+                    பகுதியை பார்க்கவும்.
+                </p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
