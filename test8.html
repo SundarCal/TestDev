@@ -32,8 +32,9 @@
         }
         .event-logo {
             position: absolute;
-            top: 0;
+            top: 50%;
             left: 20px;
+            transform: translateY(-50%);
             width: 100px;
             height: auto;
             border-radius: 50%;
@@ -48,18 +49,21 @@
         .event-info header {
             color: white;
             padding: 20px;
-            background: #add8e6;
+            background: yellow;
             display: flex;
             align-items: center;
+            justify-content: center;
             height: 120px; /* Ensure header height accommodates the logo */
+            width: calc(100% + 40px); /* Full width including padding */
+            position: relative;
+            left: -20px;
+            top: -20px;
         }
         .event-info header h1 {
             margin: 0;
             font-size: 28px;
             font-weight: bold;
-        }
-        .event-info header h1 span {
-            display: block;
+            text-align: center;
         }
         .event-info section {
             padding: 20px;
@@ -78,10 +82,11 @@
         }
         .event-info section .card h2 {
             color: #fff;
-            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            background: yellow;
             padding: 10px;
             border-radius: 8px 8px 0 0;
             margin: -15px -15px 10px -15px;
+            text-align: center;
         }
         .event-info section .right-card {
             width: 30%;
@@ -89,10 +94,11 @@
         }
         .event-info section .right-card h2 {
             color: #fff;
-            background: linear-gradient(to right, #4b6cb7, #182848);
+            background: yellow;
             padding: 10px;
             border-radius: 8px 8px 0 0;
             margin: -15px -15px 10px -15px;
+            text-align: center;
         }
         .event-info section p {
             color: #ddd;
